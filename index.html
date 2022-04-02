@@ -58,17 +58,17 @@
             <!-- Social -->
             <ul class="social-icons mr-auto mr-lg-0 d-none d-sm-block">
                 <li>
-                    <a href="https://facebook.com/alanvieirauss">
+                    <a href="https://facebook.com/alanvieirauss" target="_blank">
                         <ion-icon name="logo-facebook"></ion-icon>
                     </a>
                 </li>
                 <li>
-                    <a href="https://twitter.com/alanvieirauss">
+                    <a href="https://twitter.com/alanvieirauss" target="_blank">
                         <ion-icon name="logo-twitter"></ion-icon>
                     </a>
                 </li>
                 <li>
-                    <a href="https://www.linkedin.com/in/alanvieirauss/">
+                    <a href="https://www.linkedin.com/in/alanvieirauss/" target="_blank">
                         <ion-icon name="logo-linkedin"></ion-icon>
                     </a>
                 </li>
@@ -303,9 +303,7 @@
                             <div class="col-md-5 offset-md-2">
                                 <h3 class="text-white mt-0">Vamos tomar um café e buscar a melhor solução <span class="text-primary">juntos.</span></h3>
                                 <div class="mt-5">
-                                    <form action="https://api.staticforms.xyz/submit" method="POST">
-                                        <input type="hidden" name="accessKey" value="578fc88c-2372-4870-bbd9-fbcf62516eb9">
-                                        <input type="hidden" name="redirectTo" value="#home">
+                                    <form action="https://api.staticforms.xyz/submit" method="post">
                                         <div class="form-group">
                                             <input type="text" name="name" class="form-control" placeholder="Seu nome">
                                         </div>
@@ -317,6 +315,8 @@
                                         </div>
                                         <div class="message" id="success-message">Sua mensagem foi enviada com sucesso!</div>
                                         <div class="message" id="error-message">Algo deu errado</div>
+                                        <input type="hidden" name="accessKey" value="578fc88c-2372-4870-bbd9-fbcf62516eb9">
+                                        <input type="hidden" name="redirectTo" value="http://alanvieirauss.rf.gd/#contact">
                                         <div class="form-group mb-0">
                                             <button type="submit" class="btn">Enviar</button>
                                         </div>
